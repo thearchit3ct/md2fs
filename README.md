@@ -16,9 +16,3 @@ Now you can use the script with either:
 2. Run the script: `./md2fs.sh structure.md`
 
 The script will create the entire directory and file structure, including empty `__init__.py` files and other Python modules with the commented descriptions you've included in your markdown.
-
-For your specific example, it will create:
-
-- The main project directory `api-feature-coverage-analyzer`
-- All subdirectories like `src`, `plugins`, etc.
-- Python files with the comments you've provided
